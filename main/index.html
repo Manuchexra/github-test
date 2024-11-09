@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Register New Student</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="sidebar">
+        <h2>Sidebar Menu</h2>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Register New Student</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Assalomu aleykum! Menning ismim Manuchexra. Men Backend dasturchisiman va Men Frontendan ham xabarib bor.</p>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">Project 1</div>
+                <div class="project-card">Project 2</div>
+                <div class="project-card">Project 3</div>
+            </div>
+            <div class="project-images">
+                <img src="project1.jpg" alt="Project 1">
+                <img src="project2.jpg" alt="Project 2">
+                <img src="project3.jpg" alt="Project 3">
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <table>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                    <th>Experience (Years)</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediate</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>Beginner</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="contact-me">
+            <h2>Contact Me</h2>
+            <form>
+                <label>Name:</label><input type="text" name="name"><br>
+                <label>Email:</label><input type="email" name="email"><br>
+                <label>Subject:</label><input type="text" name="subject"><br>
+                <label>Message:</label><textarea name="message"></textarea><br>
+                <label>Phone (optional):</label><input type="tel" name="phone"><br>
+                <label>Preferred Contact Method:</label>
+                <select name="contact-method">
+                    <option>Email</option>
+                    <option>Phone</option>
+                </select><br>
+                <label>Services Interested In:</label><br>
+                <input type="checkbox" name="services" value="Web Development"> Web Development<br>
+                <input type="checkbox" name="services" value="Graphic Design"> Graphic Design<br>
+                <input type="checkbox" name="services" value="SEO Services"> SEO Services<br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
